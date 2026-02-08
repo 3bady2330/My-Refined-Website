@@ -12,7 +12,7 @@ body {
     background-image: url(../assets/images/background.avif); /* Subtle textured background */
     width: 90%; 
     max-width: 1000px; 
-    margin: 0% auto 2% auto; /* Top margin removed */
+    margin: 0% auto 0% auto; /* Top margin removed */
     border: 1px solid var(--accent-maroon);
     font-family: 'Verdana', sans-serif;
     text-align: center;
