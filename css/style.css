@@ -175,15 +175,24 @@ header {
 .headline {
     border-left: 3px solid var(--accent-maroon);
     padding-left: 12px;
+    margin-bottom: 22px;
 }
 
-.about-me p {
+.about-me {
     border-left: 3px solid var(--accent-maroon);
     padding-left: 12px;
+}
+
+.about-text p {
     max-width: 650px;
 }
 
-h1, h2 {
+h1 {
+    color: var(--accent-maroon);
+    margin-bottom: 8px;
+}
+
+h2 {
     color: var(--accent-maroon);
     margin-bottom: 15px;
 }
@@ -445,6 +454,9 @@ a:focus, button:focus, input:focus, textarea:focus {
     max-width: 900px;       /* keeps text line-length readable */
 }
 
+    .content-card p{
+    margin-bottom: 18px;
+    }
 
     .cta-container {
         justify-content: center;
