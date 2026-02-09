@@ -177,6 +177,11 @@ header {
     padding-left: 12px;
 }
 
+.about-me {
+    border-left: 3px solid var(--accent-maroon);
+    padding-left: 12px;
+}
+
 h1, h2 {
     color: var(--accent-maroon);
     margin-bottom: 15px;
