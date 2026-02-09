@@ -439,9 +439,11 @@ a:focus, button:focus, input:focus, textarea:focus {
     }
 
     .content-card {
-        padding: 25px;
-        margin: 10px;
-    }
+    padding: 45px 50px;     /* more horizontal comfort */
+    margin: 30px auto;      /* cleaner separation between sections */
+    max-width: 900px;       /* keeps text line-length readable */
+}
+
 
     .cta-container {
         justify-content: center;
