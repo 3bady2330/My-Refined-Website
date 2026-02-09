@@ -181,6 +181,7 @@ header {
 .about-me {
     border-left: 3px solid var(--accent-maroon);
     padding-left: 12px;
+    margin-bottom: 22px;
 }
 
 .about-text p {
