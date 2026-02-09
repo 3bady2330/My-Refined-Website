@@ -163,6 +163,15 @@ header {
     text-align: left;
 }
 
+.headline {
+    font-size: 1rem;/* Smaller than name, readable */
+    font-weight: 500;
+    color: #555;/* Soft gray, not pure black */
+    margin-top: 5px;
+    margin-bottom: 20px;
+    letter-spacing: 0.3px;/* Slight polish */
+}
+
 h1, h2 {
     color: var(--accent-maroon);
     margin-bottom: 15px;
