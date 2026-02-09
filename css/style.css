@@ -177,9 +177,10 @@ header {
     padding-left: 12px;
 }
 
-.about-me {
+.about-me p {
     border-left: 3px solid var(--accent-maroon);
     padding-left: 12px;
+    max-width: 650px;
 }
 
 h1, h2 {
