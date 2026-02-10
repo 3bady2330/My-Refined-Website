@@ -187,6 +187,14 @@ header {
 .about-text p {
     max-width: 650px;
 }
+/* About header styling */
+.headline {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #555;
+    text-transform: uppercase;
+}
 
 h1 {
     color: var(--accent-maroon);
