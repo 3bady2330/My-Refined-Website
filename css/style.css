@@ -8,6 +8,23 @@
     --white: #ffffff;
 }
 
+/*body {
+    background-image: url(../assets/images/background.avif); 
+    width: 90%; 
+    max-width: 1000px; 
+    margin: 0% auto 0% auto; 
+    border: 1px solid var(--accent-maroon);
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+    box-shadow: -3px -3px 20px rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    color: var(--text-dark);
+    padding-top: 0; 
+}*/
+
 body {
     background-image: url(../assets/images/background.avif); /* Subtle textured background */
     width: 90%; 
