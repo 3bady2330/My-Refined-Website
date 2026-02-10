@@ -22,4 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+    // Close sidebar on Escape key press
+    document.addEventListener('keydown', (e) => {
+    // Check if the pressed key is 'Escape' and if the sidebar is currently active
+    if (e.key === 'Escape' && sidebar.classList.contains('active')) {
+        // Toggle sidebar to close it
+        toggleSidebar();
+    }
+});
 });
