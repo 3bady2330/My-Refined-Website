@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menuToggle');
     const closeBtn = document.getElementById('closeBtn');
     const sidebar = document.getElementById('sidebar');
-    const sidebarOverlay = document.getElementById('sidebarOverlay');
 
     function toggleSidebar() {
         sidebar.classList.toggle('active');
