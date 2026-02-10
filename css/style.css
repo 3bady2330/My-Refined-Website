@@ -456,6 +456,10 @@ a:focus, button:focus, input:focus, textarea:focus {
         flex-direction: column;
         text-align: center;
     }
+.content-card h1,
+.content-card .headline {
+    text-align: left;
+}
 
     .content-card {
     padding: 45px 50px;     /* more horizontal comfort */
